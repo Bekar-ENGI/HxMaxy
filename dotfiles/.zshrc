@@ -103,6 +103,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # custom
-  alias cls="clear"
-  alias ayush="neofetch"
-  alias vim="nvim"
+alias cls="clear"
+alias ayush="fastfetch"
+alias vim="nvim"
+alias ls="lsd"
+alias lg="exit"
+alias sd='cd "$(find . -type d | fzf)"'
+alias theme='termux-style'
