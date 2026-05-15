@@ -1,0 +1,13 @@
+install the lsd package by entering
+
+pkg install lsd
+
+now run this command
+
+cd && cd .termux && curl -fLo font.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hack.zip && mkdir fonts && mv font.zip fonts &&  cd fonts && unzip font.zip && mv "Hack Regular Nerd Font Complete.ttf" .. && cd .. && mv "Hack Regular Nerd Font Complete.ttf" font.ttf && rm -rf fonts
+
+then hit this 
+
+termux-reload-settings
+
+and then you have icons.
